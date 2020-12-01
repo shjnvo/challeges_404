@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=5"
+    />
+    <link rel="icon" href="devchallenges.png">
+    <link rel="shortcut-icon" type="image/x-icon" href="https://devchallenges.io">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h3 class="not-found">400 NOT FOUND</h3>
+      <div class="content">
+        <div class="image">
+          <img src="Scarecrow.png" alt="Scarecrow">
+        </div>
+        <div class="desc">
+          <h1 >I have bad news for you</h1>
+          <p>
+            The page you are looking <br/>
+            for might be removed or is <br/>
+            temporarily unavailable
+          </p>
+          <button class="content-btn">BACK TO HOMEPAGE</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <p>Vo Duc Loi @ Devchallenges.io</p>
+  </footer>
+</html>
+
+<style>
+  html,body {
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  h3.not-found {
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    margin-bottom: 200px;
+    margin-top: 0;
+  }
+
+
+  .container {
+    flex: 1 0 auto;
+    font-family: Space Mono;
+    font-style: normal;
+    letter-spacing: -0.035em;
+    padding: 40px 77px 0 77px;
+  }
+
+  .content {
+    display: flex;
+  }
+
+  .content .image {
+    width: 50%;
+    margin-right: 118px;
+  }
+
+  .content .image img {
+    height: 447.4263916015625px;
+    width: 539.2236938476562px;
+    border-radius: 0px;
+
+  }
+
+  .content .desc {
+    width: 50%;
+  }
+
+  .content h1 {
+    font-weight: bold;
+    font-size: 64px;
+    line-height:95px;
+    width: 586px;
+    height: 190px;
+    margin: 0;
+    margin-bottom: 36px;
+    color: #333;
+  }
+
+  .content p {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    width: 381px;
+    height: 108px;
+    color: #4f4f4f;
+    margin-bottom: 64px;
+  }
+
+  .content button {
+    padding: 24px 43px;
+    background-color: #333333;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  footer p {
+    flex-shrink: 0;
+    height: 17px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    margin-bottom: 40px;
+  }
+
+  @media only screen and (max-width: 812px) {
+    h3.not-found {
+      margin-bottom:64px;
+      margin-top: 0;
+    }
+
+    .content .image {
+      width: 100%;
+      text-align: center;
+    }
+
+    .content .image img {
+      margin: auto;
+      height: 238px;
+      width: 286.83px;
+      border-radius: 0px;
+    }
+    .content {
+      display: block;
+    }
+
+    .container {
+      padding: 24px 20px;
+      width: 100%;
+    }
+
+    .content .desc {
+      width: 100%;
+    }
+
+    .content h1 {
+      font-size: 48px;
+      width: 350px;
+      height: 142px;
+      line-height: 71px;
+    }
+
+    .content p {
+      font-size: 18px;
+      line-height: 27px;
+    }
+
+    .content button {
+      margin-bottom: 96px;
+    }
+  }
+
+</style>
